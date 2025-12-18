@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer - 3 Hidden Places in Aarhus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/timer_style.css">
+</head>
+<body>
+    <header class="details-header">
+        <a href="index.html" class="back-btn">← Back</a>
+        <h1 class="location-title">Workout Timer</h1>
+    </header>
+
+    <main class="details-main">
+        <section class="stopwatch-section">
+            <div class="stopwatch-circle">
+                <span id="timer-value" class="timer-text">00:00:00</span>
+            </div>
+
+            <div class="timer-controls">
+                <button id="start-btn" class="btn btn-primary">▶ Start</button>
+                <button id="pause-btn" class="btn btn-primary" disabled>⏸ Pause</button>
+                <button id="reset-btn" class="btn btn-secondary">Reset</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <nav class="bottom-nav">
+            <a href="index.html" class="nav-item">
+                <span class="icon">🏠</span>
+                <span class="label">Home</span>
+            </a>
+            <a href="timer.html" class="nav-item active">
+                <span class="icon">⏱️</span>
+                <span class="label">Timer</span>
+            </a>
+        </nav>
+    </footer>
+
+    <script src="../timer.js"></script>
+</body>
+</html>
